@@ -4,9 +4,14 @@ import random
 import re
 import time
 
+# ~ adding commentary to create a pull request
+
 from base.base_model import BaseModel
 import tensorflow as tf
 
+# ~ adding numpy so it's substantively different
+test_array = np.array([0,1,1,2,3])
+print (test_array)
 
 class HATS(BaseModel):
     def __init__(self, config):
